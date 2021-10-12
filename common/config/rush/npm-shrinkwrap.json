@@ -1,0 +1,24 @@
+{
+  "name": "rush-common",
+  "version": "0.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "@rush-temp/leaf-package": {
+      "version": "file:projects/leaf-package.tgz",
+      "integrity": "sha512-ow/YxOL14tNgRcdEdZPcoTRL2cxEoFG3g3CsFBNMZO9d3HYEVkBrkEb4UaZT8gy/TEhwg/ED2ouQS9xjR5Jrsw=="
+    },
+    "@rush-temp/trunk-package": {
+      "version": "file:projects/trunk-package.tgz",
+      "integrity": "sha512-ufgri2u5bjPvHi1XE6AGUR31vwl8QU2gmxGOLAXJQWJD/YK6WPmUZdWqMm6zyndGEBVIwXsmGiLVU+SVT9iNDQ==",
+      "requires": {
+        "typescript": "~4.4.3"
+      }
+    },
+    "typescript": {
+      "version": "4.4.3",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-4.4.3.tgz",
+      "integrity": "sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA=="
+    }
+  }
+}
